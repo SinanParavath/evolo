@@ -134,7 +134,11 @@ section#home section.wrapper header div{
 	display: flex;
 	
 }
-
+section#home section.wrapper header div img.menu-icon{
+	width: 25px;
+	height: 25px;
+	display: none;
+}
 section#home section.wrapper header div ul{
 	display: flex;
 }
@@ -183,9 +187,8 @@ section#home section.wrapper section#spotlight div h3{
 }
 
 section#home section.wrapper section#spotlight div h3 span{
-	font-weight: bold;
-	font-size: 50px;
 	color: #00bfd8;
+	font-weight: bold;
 
 }
 
@@ -431,6 +434,7 @@ section#cost{
 section#cost section.wrapper{
 	display: flex;
 	justify-content: space-around;
+
 }
 
 section#cost section.wrapper div{
@@ -803,5 +807,185 @@ footer div.copyright p{
 	padding: 10px 0;
 	color: #9B9B9B;
 	
+}
+
+
+@media (max-width: 480px) {
+	section#home section.wrapper header div ul{
+		display: none;
+	}
+	section#home section.wrapper header div img.menu-icon{
+		display: block;
+	}
+	
+	section#home section.wrapper section#spotlight div h3{
+		font-size: 30px;
+	}
+
+	section#home section.wrapper section#spotlight div p{
+		font-size: 12px;
+	}
+}
+
+
+
+@media (max-width: 768px) {
+ 	section#home{
+		background: none;
+	}
+
+ 	section#home section.wrapper header div ul li a{
+	color: black;
+	font-weight: bold;
+	}
+	section#home section.wrapper header div a img{
+		display: none;
+	}
+	section#home section.wrapper section#spotlight div h3{
+		padding-top: 30px;
+	}
+	section#home section.wrapper section#spotlight{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	section#home section.wrapper section#spotlight img{
+		margin-top: 50px;
+	}
+
+	section#home section.wrapper section#spotlight div h3{
+		font-size: 42px; 
+	}
+	section#home section.wrapper section#spotlight div p{
+		font-size: 14px;
+	}
+
+	section#home section.wrapper section#spotlight{
+		height: auto;
+
+	}
+
+	section#services section.wrapper div.logos{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 40px 0;
+
+	}
+	section#services section.wrapper div.logos a{
+		
+		margin: 10px;
+	}
+
+	section#services{
+		padding: 50px 0 24px 0;
+	}
+
+
+
+
+	section#lightbox{
+		height: auto;
+		padding: 50px 0;
+	}	
+
+	section#lightbox section.wrapper{
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	section#lightbox section.wrapper div.left{
+		width: 100%;
+		text-align: center;
+	}
+
+	section#lightbox section.wrapper div.right{
+
+		width: 100%;
+	}
+
+	section#lightboxtwo section.wrapper div.left h3{
+		font-size: 33px;
+		
+	}
+
+	section#lightboxtwo section.wrapper div.left p{
+		font-size: 16px;
+	}
+
+	section#lightboxtwo section.wrapper div.right h3{
+		font-size: 33px;
+
+	}
+
+	section#lightboxtwo section.wrapper div.right p{
+		font-size: 16px;
+	}
+
+
+
+
+	section#lightboxtwo{
+		height: auto;
+	}
+
+	section#lightboxtwo section.wrapper{
+		flex-direction: column;
+	}
+
+	section#lightboxtwo section.wrapper div.left{
+		width: 100%;
+		text-align: center;
+	}
+
+	section#lightboxtwo section.wrapper div.right{
+		width: 100%;
+		text-align: center;
+	}
+	
+    section#lightboxtwo section.wrapper div.right a{
+		margin: 0 auto;
+	}
+
+
+
+
+	section#menu section.wrapper div.box{
+		flex-wrap: wrap;
+
+	}	
+
+	section#menu section.wrapper div.box div{
+		margin: 10px 0px 10px 0px;
+
+	}
+
+
+	section#cost{
+		height: auto;
+		padding: 50px 0;
+	}
+
+
+
+	section#cost section.wrapper{
+		flex-wrap: wrap;
+		margin: 20px 0;
+	}
+
+	section#cost section.wrapper div{
+		margin-bottom: 20px;
+	}
+}
+
+
+@media (max-width: 1024px) {
+	section#home section.wrapper header div ul li{
+		margin-left: 10px;
+	}
+	section#home section.wrapper header div ul li a{
+		font-size: 14px;
+	}
 }
 
