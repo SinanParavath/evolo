@@ -370,7 +370,7 @@ section#lightboxtwo section.wrapper div.right h3{
 section#lightboxtwo section.wrapper div.right p{
 	display: flex;
 	font-size: 14px;
-	padding: 2 px 0px;
+	padding: 2px 0px;
 	width: 100%;
 	align-items: center;
 	color: #9B9B9B;
@@ -826,6 +826,20 @@ footer div.copyright p{
 	section#home section.wrapper section#spotlight div p{
 		font-size: 12px;
 	}
+	section#services section.wrapper div h3{
+		margin: 5px 0px;
+	}
+	section#services section.wrapper div p{
+		font-size: 11px;
+	}
+	section#lightbox section.wrapper div.left h3{
+		font-size: 25px;
+	}
+	section#lightbox section.wrapper div.left p{
+		font-size: 10px;
+		margin: 0 auto;
+	}
+
 }
 
 
@@ -882,9 +896,6 @@ footer div.copyright p{
 	section#services{
 		padding: 50px 0 24px 0;
 	}
-
-
-
 
 	section#lightbox{
 		height: auto;
