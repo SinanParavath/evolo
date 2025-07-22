@@ -414,7 +414,7 @@ section#pricing section.wrapper div{
 
 section#pricing section.wrapper div h3{
 	font-weight: 700;
-	font-size: 25px;
+	font-size: 30px;
 	padding-bottom: 10px;
 
 }
@@ -752,6 +752,7 @@ footer section.wrapper{
 
 footer section.wrapper div.links{
 	width:30%;
+	
 }
 
 footer section.wrapper div.links h3{
@@ -905,6 +906,11 @@ footer div.copyright p{
 		width: 100%;
 	}
 
+	section#lightboxtwo section.wrapper div.left img{
+		width: 75%;
+	}
+
+
 	section#lightboxtwo section.wrapper div.left h3{
 		font-size: 33px;
 		
@@ -916,7 +922,7 @@ footer div.copyright p{
 
 	section#lightboxtwo section.wrapper div.right h3{
 		font-size: 33px;
-
+		padding: 20px 0;
 	}
 
 	section#lightboxtwo section.wrapper div.right p{
@@ -943,9 +949,22 @@ footer div.copyright p{
 		width: 100%;
 		text-align: center;
 	}
+	section#lightboxtwo section.wrapper div.right p{
+		display: flex;
+		justify-content: center;
+	}
+
 	
     section#lightboxtwo section.wrapper div.right a{
-		margin: 0 auto;
+		margin: 10px auto;
+	 
+	}
+	section#lightbox section.wrapper div.right img{
+		width: 75%;
+	}
+	section#lightbox section.wrapper div.right{
+		display: flex;
+		justify-content: center;
 	}
 
 
@@ -971,12 +990,34 @@ footer div.copyright p{
 
 	section#cost section.wrapper{
 		flex-wrap: wrap;
-		margin: 20px 0;
 	}
 
 	section#cost section.wrapper div{
 		margin-bottom: 20px;
 	}
+
+	section#form section.wrapper div.left ul li{
+		font-size: 10px;
+	}
+
+	section#form section.wrapper div.left ul li span{
+	font-size: 10px;
+	}
+	section#form section.wrapper div.right div.agree p{
+	font-size: 9px;
+	}
+
+	section#form section.wrapper div.right div.agree p span{
+	font-size: 10px;
+	}	
+	section#team section.wrapper  div.head p{
+		width: 85%;
+	}
+
+	footer section.wrapper{
+	align-items: start;
+	}
+
 }
 
 
