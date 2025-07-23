@@ -810,36 +810,13 @@ footer div.copyright p{
 	
 }
 
-
-@media (max-width: 480px) {
-	section#home section.wrapper header div ul{
-		display: none;
+@media (max-width: 1024px) {
+	section#home section.wrapper header div ul li{
+		margin-left: 10px;
 	}
-	section#home section.wrapper header div img.menu-icon{
-		display: block;
+	section#home section.wrapper header div ul li a{
+		font-size: 14px;
 	}
-	
-	section#home section.wrapper section#spotlight div h3{
-		font-size: 30px;
-	}
-
-	section#home section.wrapper section#spotlight div p{
-		font-size: 12px;
-	}
-	section#services section.wrapper div h3{
-		margin: 5px 0px;
-	}
-	section#services section.wrapper div p{
-		font-size: 11px;
-	}
-	section#lightbox section.wrapper div.left h3{
-		font-size: 25px;
-	}
-	section#lightbox section.wrapper div.left p{
-		font-size: 10px;
-		margin: 0 auto;
-	}
-
 }
 
 
@@ -1031,12 +1008,119 @@ footer div.copyright p{
 }
 
 
-@media (max-width: 1024px) {
-	section#home section.wrapper header div ul li{
-		margin-left: 10px;
+
+
+
+@media (max-width: 480px) {
+	section#home section.wrapper header div ul{
+		display: none;
 	}
-	section#home section.wrapper header div ul li a{
-		font-size: 14px;
+	section#home section.wrapper header div img.menu-icon{
+		display: block;
 	}
+	
+	section#home section.wrapper section#spotlight div h3{
+		font-size: 30px;
+	}
+
+	section#home section.wrapper section#spotlight div p{
+		font-size: 12px;
+	}
+	section#services section.wrapper div h3{
+		margin: 5px 0px;
+	}
+	section#services section.wrapper div p{
+		font-size: 11px;
+	}
+	section#lightbox section.wrapper div.left h3{
+		font-size: 25px;
+	}
+	section#lightbox section.wrapper div.left p{
+		font-size: 10px;
+		margin: 0 auto;
+	}
+
+	section#lightboxtwo section.wrapper div.right h3 {
+		font-size: 24px;
+
+	}
+	section#pricing section.wrapper div p{
+		width: 85%;
+	}
+	section#form section.wrapper div.left p{
+		font-size: 13px;
+	}
+	section#form section.wrapper{
+		height: fit-content;
+		background-color: rgb(247, 251, 255);
+	}	
+
+	section#form section.wrapper div.left ul{
+		width: 100%;
+	}
+
+
+	section#form section.wrapper div.left ul li{
+		font-size: 10px;
+	}
+
+	section#form section.wrapper{
+		display: block;
+	}
+
+	section#form section.wrapper div.left{
+		width: 100%;
+		text-align: center;
+	
+	}
+
+	section#form section.wrapper div.left h3{
+		margin: 0 auto;
+
+	}
+	section#form section.wrapper div.left p{
+		margin: 0 auto;
+	}
+	section#form section.wrapper div.left li{
+		margin-left: 12%;
+	}
+
+
+	section#form section.wrapper div.right{
+		width: 100%;
+	}
+
+	section#video section.wrapper{
+		height: fit-content;
+	}
+
+	footer section.wrapper{
+		height: fit-content;
+		padding: 0;
+	}
+
+	footer section.wrapper div.links p{
+		font-size: 12px;
+	}
+
+	footer section.wrapper div.links ul li{
+		font-size: 11px;
+	}
+
+	footer section.wrapper div.links h3{
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	footer section.wrapper{
+		padding-bottom: 50px;
+	}
+
+	footer div.line{
+		width: 85%;
+	}
+
 }
+
+
 
